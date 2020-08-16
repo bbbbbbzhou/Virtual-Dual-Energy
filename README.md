@@ -6,10 +6,11 @@ Asian Conference on Computer Vision (ACCV), 2018
 
 [[Paper](https://arxiv.org/pdf/1810.09354.pdf)]
 
-This repository contains the PyTorch implementation of MCA-Net for DE bone image generation. 
-Pre-trained model is available upon request via:
+This repository contains the PyTorch implementation of MCA-Net for DE bone image generation. \
+Pre-trained model is available upon request via: \
 https://drive.google.com/file/d/1agAASv1B5Uecxh9uyt4q2i-6NTDRLPYc/view?usp=sharing
-We provide an example case in the './example_data/'
+
+We provide an example case study in the './example_data/'
 
 ### Citation
 If you use this code for your research or project, please cite:
@@ -100,7 +101,7 @@ Other hyperparameters can be adjusted in the code as well.
 python test.py --resume './output/train_bone_msunet/checkpoints/model_best.pt' --experiment_name 'test_bone_msunet' --model_type 'model_bone' --dataset 'DE' --data_root './example_data/' --net_G 'msunet' --net_D 'patchGAN'
 ```
 where \
-`--resume` defines which checkpoint for testing and evaluation. \
+`--resume` defines which checkpoint for testing and evaluation. The 'model_best.pt' is available upon request.  \
 The test will output an eval.mat containing model's input and prediction for evaluation in the '--experiment_name' folder.
 
 Sample training/test scripts are provided under './scripts/' and can be directly executed.
