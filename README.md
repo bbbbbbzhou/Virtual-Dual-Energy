@@ -85,7 +85,7 @@ Our code has been tested with Python 3.7, Pytorch 0.4.1, CUDA 10.0 on Ubuntu 18.
     │            
     └── ...
 
-Each .png is an image data and intensity normalized to between 0~1. IB_N.png / IS_N.png / IH_N.png should contain paired imaging data for the same patient.
+Each .png is an image data and intensity normalized to between 0~255. IB_N.png / IS_N.png / IH_N.png should contain paired imaging data for the same patient.
 
 ### To Run Our Code
 - Train the model
