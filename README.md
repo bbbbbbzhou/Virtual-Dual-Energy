@@ -10,6 +10,8 @@ This repository contains the PyTorch implementation of MCA-Net for DE bone image
 Pre-trained model is available upon request via: \
 https://drive.google.com/file/d/1agAASv1B5Uecxh9uyt4q2i-6NTDRLPYc/view?usp=sharing
 
+The code and model are for research use only. 
+
 We provide an example case in the './example_data/'
 
 ### Citation
